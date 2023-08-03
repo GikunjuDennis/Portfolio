@@ -53,14 +53,14 @@ section{
     background-position: center;
 }
 /* Container holding the image and the text */
-.container {
-    position: relative;
+.flex-container {
+    position: center;
     text-align: center;
     color: rgb(210, 42, 24);
     padding: 250px;
     font-size: 20px;
     font-weight: bold;
-
+    display: ;
   }
 
    
