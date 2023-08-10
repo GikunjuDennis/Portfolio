@@ -47,7 +47,10 @@ nav ul li a{
 
 }
 .nav-link a:hover{
-    color: rgb(225, 47, 47);
+    color: black;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: salmon;  
 }
 section{
     
@@ -57,15 +60,16 @@ section{
     background-position: center;
 }
 /* Container holding the image and the text */
-{
+.flex-container {
     position: center;
     text-align: center;
     color: rgb(210, 42, 24);
     padding: 250px;
     font-size: 20px;
     font-weight: bold;
-    display: ;
+    
   }
+
 
   
    
