@@ -3,17 +3,22 @@ body{
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+
 nav{
+    
     position: fixed;
     top: 0;
     width: 100%;
     height: 100px;
     padding: 10px 90px;
     box-sizing: border-box;
-    background: rgba(0, 0, 0, 0);
+    z-index: 1; /*nimeongeza z index juu image ilikuwa juu ya navbar */
     border-bottom: 1px solid off;
     
 }
+
+
 nav .logo{
     padding: 22px 20px;
     height: 80px;
@@ -41,9 +46,8 @@ nav ul li a{
     font-weight: bold;
 
 }
-nav ul li a:hover{
-    
-    background-color: black;
+.nav-link a:hover{
+    color: rgb(225, 47, 47);
 }
 section{
     
@@ -53,7 +57,7 @@ section{
     background-position: center;
 }
 /* Container holding the image and the text */
-.flex-container {
+{
     position: center;
     text-align: center;
     color: rgb(210, 42, 24);
@@ -63,4 +67,5 @@ section{
     display: ;
   }
 
+  
    
