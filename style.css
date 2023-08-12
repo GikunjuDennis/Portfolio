@@ -70,6 +70,20 @@ section{
     
   }
 
-
+.grid-container{
+    display: grid;
+    min-height: 400px;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto auto;
+    background-color: #E5E4E2;
+    border-radius: 15px;
+    
+}
+.vehicles{
+    height: 400px;
+    width: 400px;
+    object-fit: scale-down;
+    
+}
   
    
