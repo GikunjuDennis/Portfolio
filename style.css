@@ -6,7 +6,6 @@ body{
 
 
 nav{
-    
     position: fixed;
     top: 0;
     width: 100%;
@@ -15,7 +14,7 @@ nav{
     box-sizing: border-box;
     z-index: 1; /*nimeongeza z index juu image ilikuwa juu ya navbar */
     border-bottom: 1px solid off;
-    
+    background-color: #8A9A5B;
 }
 
 
@@ -37,20 +36,13 @@ nav ul{
     display: flex;
 
 }
-nav ul li a{
-    line-height: 80px;
-    color: #F8380F;
-    padding: 12px 30px;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: bold;
 
-}
 .nav-link a:hover{
     color: black;
 }
 .navbar-light .navbar-nav .nav-link{
-    color: salmon;  
+    color: rgb(0, 0, 0);
+    font-weight: 600;      
 }
 section{
     
@@ -85,5 +77,72 @@ section{
     object-fit: scale-down;
     
 }
-  
-   
+.parent{
+    display: flex;
+    width: 100;
+    text-align: left;
+    background-color: platinum #E5E4E2 ;
+    padding: 15px 15px 15px 15px;
+}  
+.child{
+    flex: 1;
+    border: 1px black;
+    padding: 5px;  
+    
+}
+.child img{
+    height: 80vh;
+    width: 100%;
+    border-radius: 5px;
+    object-fit: contain;
+    display: flex;
+
+}
+h1 h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.buttons{
+    display: flex;
+}
+.facebook-button {
+    display: inline-flex;
+    padding: 0px;
+    border: transparent;
+    border-radius: 1px;
+    font-family: Arial, sans-serif;
+    border-width: thin;
+}
+.facebook-icon {
+    font-size: 10px;  
+    
+    cursor: pointer;
+}
+.twitter-button {
+    display: inline-flex;
+    padding: 0px;
+    border: transparent;
+    border-radius: 1px;
+    font-family: Arial, sans-serif;
+}
+.facebook-icon {
+    font-size: 10px;
+    background: blue;  
+    cursor: pointer;
+}
+.facebookbutton-btn{
+    border-width: thick;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+.twitterbutton-btn{
+    border-width: thick;
+    background-color: blue;
+    color: white;
+    box-shadow: 5px 5px red;
+    border-radius: 5px;
+}
