@@ -69,6 +69,7 @@ section{
     grid-template-columns: auto auto auto;
     background-color: #E5E4E2;
     border-radius: 15px;
+    grid-gap: 5px 15px;
     
 }
 .vehicles{
@@ -99,7 +100,7 @@ section{
 
 }
 h1 h2{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 40px;
 }
 p{
@@ -107,6 +108,8 @@ p{
 }
 .buttons{
     display: flex;
+    justify-content: space-between;
+    width: 35vh;
 }
 .facebook-button {
     display: inline-flex;
@@ -134,15 +137,70 @@ p{
     cursor: pointer;
 }
 .facebookbutton-btn{
-    border-width: thick;
-    background-color: blue;
-    color: white;
+    border-width: 0;
+    background-color: taupe;
+    color: blue;
     border-radius: 5px;
 }
 .twitterbutton-btn{
-    border-width: thick;
-    background-color: blue;
-    color: white;
-    box-shadow: 5px 5px red;
+    border-width: 0;
+    background-color: taupe;
+    color: blue;
     border-radius: 5px;
+    margin-right: 4px;
 }
+.contact-parent-container{
+    display: flex;
+    background-color: #8A9A5B;  
+    background-size: cover;
+    
+}
+.contact-child-container{
+    flex: 1;
+    border: 1px rgb(250, 12, 12);
+    background-color: black;
+    padding: 5px;
+}
+.contact-child-container1{
+    flex: 1;
+    border: 1px rgb(250, 12, 12);
+    background-color: blue;
+    padding: 5px;
+}
+.mini-landing{
+    flex: 3;
+    flex-direction: column;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: red;
+    background-size: cover;
+}
+.contact-form{
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family:'Montserrat',sans-serif;border:2px solid 
+  }
+  label {
+    display: flex;
+    margin-bottom: 8px;
+  }
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px black;
+    border-radius: 3px;
+  }
+  .footer{
+    display: flex;
+  }
