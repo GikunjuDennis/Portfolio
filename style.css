@@ -204,3 +204,7 @@ form {
   .footer{
     display: flex;
   }
+  .card-deck{
+    display: flex;
+    width: 250rem;
+  }
